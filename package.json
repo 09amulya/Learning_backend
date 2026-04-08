@@ -2,6 +2,12 @@
   "name": "learning-backend",
   "version": "1.0.0",
   "description": "learning backend for chai and code",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+    
+  },
   "keywords": [
     "javascript",
     "backend",
@@ -9,9 +15,7 @@
   ],
   "license": "ISC",
   "author": "Amulya",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
