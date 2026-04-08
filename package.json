@@ -6,7 +6,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
-    
   },
   "keywords": [
     "javascript",
@@ -16,6 +15,7 @@
   "license": "ISC",
   "author": "Amulya",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
   }
 }
